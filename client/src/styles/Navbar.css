@@ -1,0 +1,51 @@
+.navbar-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between; /* Space between elements */
+    align-items: center; /* Vertically center the items */
+    padding: 10px 20px; /* Adjust padding to suit your design */
+    background-color: #333; /* Dark background color for the navbar */
+    color: white; /* White text color */
+    box-sizing: border-box;
+    border-radius: 5px;
+  }
+
+  .nav {
+    border-radius: 5px;
+  }
+  
+  .home-link {
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .home-link:hover {
+    color: #f0f0f0; /* Light color on hover */
+  }
+  
+  .navbar-container input {
+    width: 50%; /* Make the search bar take up 50% of the available space */
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+  }
+  
+  .cart-link {
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .cart-link:hover {
+    color: #f0f0f0; /* Light color on hover */
+  }
+  
+  .cart-icon {
+    margin-left: 5px;
+    font-size: 18px;
+  }
+  
